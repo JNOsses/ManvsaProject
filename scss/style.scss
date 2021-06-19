@@ -1,0 +1,78 @@
+@import "../lib/bootstrap-5.0.1/scss/bootstrap";
+
+$Negro: #040404;
+$DoradoFuerte: #e1701a;
+$DoradoClaro: #f7a440;
+$Descripcion: #ffe7e7;
+$Claro: #f6dcbf;
+$Gris: #aaaaaa;
+
+$FontTextos: 'Architects Daughter';
+$FontTitulos: 'Cabin';
+
+.bg-dark{
+    background-color: #040404 !important;
+}
+
+
+.container{
+    background-color:$Negro;
+}
+
+.navbar{
+    font-family: $FontTitulos;
+    font-size:18px;
+    
+    
+}
+.nav-item{
+    
+}
+
+
+
+/**/
+
+
+
+
+#Titulo{
+
+
+    text-align: center;
+    color:$DoradoFuerte;
+    font-family: $FontTitulos;
+    text-shadow: 3px 3px $DoradoClaro;
+    letter-spacing: 5px;
+    
+    
+
+}
+
+
+
+h2{
+    color:$DoradoFuerte;
+
+}
+
+.descripcionDisco{
+    color:$Descripcion;
+}
+
+
+.txtBiografia{
+    color:white;
+    font-family:$FontTextos;
+    font-weight:bold;
+    letter-spacing:1.5px;
+}
+
+#tituloBiografia{
+    color:$DoradoFuerte;
+    font-family:$FontTextos;
+    font-weight:bold;
+    font-size:25px;
+}
+
+
