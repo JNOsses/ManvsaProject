@@ -29,6 +29,8 @@ $FontNav: 'Shadows Into Light';
 
 
 
+
+
 /**/
 
 
@@ -74,7 +76,19 @@ $FontNav: 'Shadows Into Light';
     background-position: 50%;
     background-size: 100% 100%;
 }
-
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+    transition: -webkit-transform 1s ease-in-out;
+    transition: transform 1s ease-in-out;
+    transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
+  }
 
 @media only screen and (max-width: 880px) {
     #carouselExampleControls {
