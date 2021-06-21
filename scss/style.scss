@@ -129,17 +129,23 @@ $FontTitulos: 'Cabin';
 /**/
 
 
-
-
 .TitulosDiscografia{
     color:$DoradoFuerte;
-
 }
 
+
+/**/
 
 #SeccionComfort{
         margin-bottom:225px;        
         padding-top:30px;
+        
+}
+
+@keyframes mover{
+    0%{
+        transform: translate(100%);
+    }
 }
 
 

@@ -11550,9 +11550,24 @@ fieldset:disabled .btn {
   color: #e1701a;
 }
 
+/**/
 #SeccionComfort {
   margin-bottom: 225px;
   padding-top: 30px;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    -webkit-transform: translate(100%);
+            transform: translate(100%);
+  }
+}
+
+@keyframes mover {
+  0% {
+    -webkit-transform: translate(100%);
+            transform: translate(100%);
+  }
 }
 
 #SeccionSkydive {

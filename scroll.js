@@ -35,14 +35,51 @@ window.onscroll = function (){
  * 
  */
 
-function ocultarBtn(#btnNavegador){
 
-    var boton = document.getElementById(btnNavegador);
-    
+window.addEventListener('scroll', function() {
+
+    let seccion = this.document.getElementById("SeccionComfort");
+    let posicion = seccion.getBoundingClientRect().top;
+    // console.log(posicion);
+    let tamanodePantalla = window.innerHeight;
+
+    if(posicion < tamanodePantalla){
+        seccion.style.animation = 'mover 2s ease-out'
+    }
 
 
-}
 
+})
+
+window.addEventListener('scroll', function() {
+
+    let seccion = this.document.getElementById("SeccionSkydive");
+    let posicion = seccion.getBoundingClientRect().top;
+    // console.log(posicion);
+    let tamanodePantalla = window.innerHeight;
+
+    if(posicion < tamanodePantalla){
+        seccion.style.animation = 'mover 2s ease-out'
+    }
+
+
+
+})
+
+window.addEventListener('scroll', function() {
+
+    let seccion = this.document.getElementById("SeccionMyself");
+    let posicion = seccion.getBoundingClientRect().top;
+    // console.log(posicion);
+    let tamanodePantalla = window.innerHeight;
+
+    if(posicion < tamanodePantalla){
+        seccion.style.animation = 'mover 2s ease-out'
+    }
+
+
+
+})
 
 
 
