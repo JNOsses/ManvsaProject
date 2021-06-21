@@ -9,6 +9,7 @@ $Gris: #aaaaaa;
 
 $FontTextos: 'Architects Daughter';
 $FontTitulos: 'Cabin';
+$FontNav: 'Shadows Into Light';
 
 .bg-dark{
     background-color: #040404 !important;
@@ -19,8 +20,9 @@ $FontTitulos: 'Cabin';
 }
 
 .navbar{
-    font-family: $FontTitulos;
-    font-size:18px;
+    font-family: $FontNav;
+
+    font-size:20px;
 }
 
 
