@@ -14,7 +14,6 @@ $FontTitulos: 'Cabin';
     background-color: #040404 !important;
 }
 
-
 .container{
     background-color:$Negro;
 }
@@ -35,17 +34,21 @@ $FontTitulos: 'Cabin';
 
 #Titulo{
 
-
     text-align: center;
     color:$DoradoFuerte;
     font-family: $FontTitulos;
     text-shadow: 3px 3px $DoradoClaro;
     letter-spacing: 5px;
-    
-    
 
 }
+
+
+
+
 /**/
+
+
+
 .carousel-control-next-icon {
     display: inline-block;
     width: 1rem;
@@ -56,21 +59,28 @@ $FontTitulos: 'Cabin';
 }
 
 
-
-
-
 @media only screen and (max-width: 880px) {
     #carouselExampleControls {
         margin-top:80px;
-        
     }
     }
+
+
+
+
 /**/
+
+
+
+
 #PortadaFondo{
     margin-top:400px;
     margin-bottom:400px
     
 }
+
+
+
 
 @media only screen and (max-width:1000px)
 {
@@ -79,9 +89,15 @@ $FontTitulos: 'Cabin';
     }
 }
 
+
+
+
 #PortadaFondoResponsive{
     visibility:hidden;
 }
+
+
+
 
 @media only screen and (max-width:1000px)
 {
@@ -95,11 +111,11 @@ $FontTitulos: 'Cabin';
 
 
 
-
-
-
-
 /**/
+
+
+
+
 .TitulosDiscografia{
     color:$DoradoFuerte;
 
@@ -125,10 +141,22 @@ $FontTitulos: 'Cabin';
     color:$Descripcion;
 }
 
+
+
+
+/**/
+
+
+
+
 #icoMidi{
     margin-top:150px; 
     margin-bottom:90px;
 }
+
+
+
+
 @media only screen and (max-width:880px) {
     #icoMidi
     {margin-top:150px; 
@@ -137,12 +165,24 @@ $FontTitulos: 'Cabin';
 }
 
 
+
+
+/**/
+
+
+
+
 #tituloBiografia{
     color:$DoradoFuerte;
     font-family:$FontTextos;
     font-weight:bold;
     font-size:25px;
 }
+
+
+
+
+
 
 
 /*Boton de ir arriba*/
