@@ -1,6 +1,6 @@
 @import "../lib/bootstrap-5.0.1/scss/bootstrap";
 
-$Negro: #040404;
+$Negro: #000000;
 $DoradoFuerte: #e1701a;
 $DoradoClaro: #f7a440;
 $Descripcion: #ffe7e7;
@@ -22,12 +22,9 @@ $FontTitulos: 'Cabin';
 .navbar{
     font-family: $FontTitulos;
     font-size:18px;
-    
-    
 }
-.nav-item{
-    
-}
+
+
 
 
 
@@ -56,6 +53,45 @@ h2{
 
 }
 
+#carouselExampleControls {
+    
+}
+@media only screen and (max-width: 880px) {
+    #carouselExampleControls {
+        margin-top:80px;
+        
+    }
+    }
+
+#icoAuris{
+    margin-top:380px;
+    margin-bottom:380px
+    
+}
+@media only screen and (max-width: 880px) {
+    #icoAuris {
+
+
+    
+    }
+    }
+
+
+#SeccionDiscografia{
+        margin-bottom:225px;        
+        padding-top:30px;
+}
+
+
+#SeccionSkydive{
+        margin-bottom:225px;
+}
+
+#SeccionMyself{
+    margin-bottom:225px;
+}
+
+
 .descripcionDisco{
     color:$Descripcion;
 }
@@ -76,3 +112,34 @@ h2{
 }
 
 
+/*Boton de ir arriba*/
+
+#button-up{
+    width:40px;
+    height:40px;
+    display:flex;
+    justify-content:center;
+    // align-item:center;
+    color:white;
+    border-radius:20px;
+    font-size:20px;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    cursor:pointer;
+    border:4px solid transparent;
+    transition: all 300ms ease;
+    transform:scale(0);
+    
+}
+
+#button-up:hover{
+    transform: scale(2,2);
+    border-color:rgba(0,0,0,0.1);
+}
+
+@media only screen and (max-width: 880px) {
+    #button-up {
+    display: none !important;
+    }
+    }
