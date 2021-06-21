@@ -53,9 +53,7 @@ h2{
 
 }
 
-#carouselExampleControls {
-    
-}
+
 @media only screen and (max-width: 880px) {
     #carouselExampleControls {
         margin-top:80px;
@@ -68,13 +66,6 @@ h2{
     margin-bottom:380px
     
 }
-@media only screen and (max-width: 880px) {
-    #icoAuris {
-
-
-    
-    }
-    }
 
 
 #SeccionDiscografia{
@@ -96,6 +87,16 @@ h2{
     color:$Descripcion;
 }
 
+#icoMidi{
+    margin-top:150px; 
+    margin-bottom:90px;
+}
+@media only screen and (max-width:880px) {
+    #icoMidi
+    {margin-top:150px; 
+    margin-bottom:70px;
+    }
+}
 
 .txtBiografia{
     color:white;
