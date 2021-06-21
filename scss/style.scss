@@ -135,17 +135,18 @@ $FontTitulos: 'Cabin';
 
 
 /**/
+@keyframes mover{
+    0%{
+        transform: translate(100%)
+    }
+    
+}
+
 
 #SeccionComfort{
         margin-bottom:225px;        
         padding-top:30px;
         
-}
-
-@keyframes mover{
-    0%{
-        transform: translate(100%);
-    }
 }
 
 
@@ -198,8 +199,9 @@ $FontTitulos: 'Cabin';
     font-family:$FontTextos;
     font-weight:bold;
     font-size:25px;
-}
+   
 
+}
 
 
 

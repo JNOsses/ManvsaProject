@@ -41,10 +41,10 @@ window.addEventListener('scroll', function() {
     let seccion = this.document.getElementById("SeccionComfort");
     let posicion = seccion.getBoundingClientRect().top;
     // console.log(posicion);
-    let tamanodePantalla = window.innerHeight;
+    let tamanodePantalla = window.innerHeight/1;
 
     if(posicion < tamanodePantalla){
-        seccion.style.animation = 'mover 2s ease-out'
+        seccion.style.animation = 'mover 1s ease-out'
     }
 
 
@@ -56,10 +56,10 @@ window.addEventListener('scroll', function() {
     let seccion = this.document.getElementById("SeccionSkydive");
     let posicion = seccion.getBoundingClientRect().top;
     // console.log(posicion);
-    let tamanodePantalla = window.innerHeight;
+    let tamanodePantalla = window.innerHeight/1;
 
     if(posicion < tamanodePantalla){
-        seccion.style.animation = 'mover 2s ease-out'
+        seccion.style.animation = 'mover 1s ease-out'
     }
 
 
@@ -69,13 +69,26 @@ window.addEventListener('scroll', function() {
 window.addEventListener('scroll', function() {
 
     let seccion = this.document.getElementById("SeccionMyself");
+
     let posicion = seccion.getBoundingClientRect().top;
     // console.log(posicion);
-    let tamanodePantalla = window.innerHeight;
+    let tamanodePantalla = window.innerHeight/1;
 
     if(posicion < tamanodePantalla){
-        seccion.style.animation = 'mover 2s ease-out'
+        seccion.style.animation = 'mover 1s ease-out'
     }
+
+
+
+})
+
+window.addEventListener('load', function() {
+
+    let seccion = this.document.getElementById("carouselExampleControls");
+    
+    
+        seccion.style.animation = 'mover 3s ease-out'
+    
 
 
 

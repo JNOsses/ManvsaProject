@@ -11551,23 +11551,22 @@ fieldset:disabled .btn {
 }
 
 /**/
-#SeccionComfort {
-  margin-bottom: 225px;
-  padding-top: 30px;
-}
-
 @-webkit-keyframes mover {
   0% {
     -webkit-transform: translate(100%);
             transform: translate(100%);
   }
 }
-
 @keyframes mover {
   0% {
     -webkit-transform: translate(100%);
             transform: translate(100%);
   }
+}
+
+#SeccionComfort {
+  margin-bottom: 225px;
+  padding-top: 30px;
 }
 
 #SeccionSkydive {
@@ -11601,6 +11600,7 @@ fieldset:disabled .btn {
   font-family: "Architects Daughter";
   font-weight: bold;
   font-size: 25px;
+  margin-bottom: 30px;
 }
 
 /*Boton de ir arriba*/
