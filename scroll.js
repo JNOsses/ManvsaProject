@@ -30,8 +30,18 @@ window.onscroll = function (){
         buttonUp.style.transform = "scale(0)";
     }
 }
+/**
+ * 
+ * 
+ */
+
+function ocultarBtn(#btnNavegador){
+
+    var boton = document.getElementById(btnNavegador);
+    
 
 
+}
 
 
 
