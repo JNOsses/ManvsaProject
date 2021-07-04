@@ -11465,6 +11465,19 @@ fieldset:disabled .btn {
   }
 }
 
+.anclaNoPointer {
+  cursor: default;
+}
+
+aria-label {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .bg-dark {
   background-color: #040404 !important;
 }
@@ -11476,13 +11489,20 @@ fieldset:disabled .btn {
 .navbar {
   font-family: "Shadows Into Light";
   font-size: 20px;
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar {
+    visibility: visible;
+  }
 }
 
 /**/
 #Titulo {
   text-align: center;
   color: #e1701a;
-  font-family: "Cabin";
+  font-family: "Architects Daughter";
   text-shadow: 3px 3px #f7a440;
   letter-spacing: 5px;
   cursor: pointer;
@@ -11506,6 +11526,17 @@ fieldset:disabled .btn {
 }
 
 /**/
+#SeccionCarousel {
+  display: none;
+}
+
+@media only screen and (max-width: 880px) {
+  #SeccionCarousel {
+    margin-top: 80px;
+    display: inline-block;
+  }
+}
+
 .carousel-control-next-icon {
   display: inline-block;
   width: 1rem;
@@ -11513,6 +11544,13 @@ fieldset:disabled .btn {
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 880px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: none !important;
+  }
 }
 
 .carousel-item {
@@ -11529,18 +11567,7 @@ fieldset:disabled .btn {
   transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
 }
 
-@media only screen and (max-width: 880px) {
-  #carouselExampleControls {
-    margin-top: 80px;
-  }
-}
-
 /**/
-#PortadaFondo {
-  margin-top: 400px;
-  margin-bottom: 400px;
-}
-
 @media only screen and (max-width: 1000px) {
   #PortadaFondo {
     display: none !important;
@@ -11554,8 +11581,8 @@ fieldset:disabled .btn {
 @media only screen and (max-width: 1000px) {
   #PortadaFondoResponsive {
     visibility: visible;
-    margin-top: 400px;
-    margin-bottom: 400px;
+    margin-top: 80px;
+    margin-bottom: 350px;
   }
 }
 
@@ -11579,16 +11606,41 @@ fieldset:disabled .btn {
 }
 
 #SeccionComfort {
+  margin-top: 300px;
   margin-bottom: 225px;
   padding-top: 30px;
+  display: none;
+}
+
+@media only screen and (max-width: 880px) {
+  #SeccionComfort {
+    margin-top: 80px;
+    display: inline;
+  }
 }
 
 #SeccionSkydive {
   margin-bottom: 225px;
+  display: none;
+}
+
+@media only screen and (max-width: 880px) {
+  #SeccionSkydive {
+    margin-top: 80px;
+    display: inline;
+  }
 }
 
 #SeccionMyself {
   margin-bottom: 225px;
+  display: none;
+}
+
+@media only screen and (max-width: 880px) {
+  #SeccionMyself {
+    margin-top: 80px;
+    display: inline;
+  }
 }
 
 .descripcionDisco {
@@ -11603,17 +11655,46 @@ fieldset:disabled .btn {
 
 @media only screen and (max-width: 880px) {
   #icoMidi {
-    margin-top: 150px;
-    margin-bottom: 70px;
+    margin-top: 175px;
+    margin-bottom: 100px;
   }
 }
 
 /**/
+#SeccionBiografia {
+  display: none;
+}
+
+@media only screen and (max-width: 880px) {
+  #SeccionBiografia {
+    margin-top: 80px;
+    display: inline-block;
+  }
+}
+
 #tituloBiografia {
   color: #e1701a;
   font-family: "Architects Daughter";
   font-weight: bold;
   font-size: 25px;
+}
+
+#SeccionVideo {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media only screen and (max-width: 880px) {
+  #SeccionVideo {
+    display: inline-block;
+  }
+}
+
+#SeccionContacto {
+  font-size: 18px;
+  color: #f7a440;
 }
 
 /*Boton de ir arriba*/

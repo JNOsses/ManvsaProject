@@ -11,6 +11,18 @@ $FontTextos: 'Architects Daughter';
 $FontTitulos: 'Cabin';
 $FontNav: 'Shadows Into Light';
 
+.anclaNoPointer{
+    cursor: default;
+}
+
+aria-label{
+    font-size:20px;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
 .bg-dark{
     background-color: #040404 !important;
 }
@@ -21,8 +33,14 @@ $FontNav: 'Shadows Into Light';
 
 .navbar{
     font-family: $FontNav;
-
     font-size:20px;
+    visibility: hidden;
+    
+}
+@media only screen and (max-width:800px){
+    .navbar{
+        visibility: visible;
+    }
 }
 
 
@@ -40,7 +58,7 @@ $FontNav: 'Shadows Into Light';
 
     text-align: center;
     color:$DoradoFuerte;
-    font-family: $FontTitulos;
+    font-family: $FontTextos;
     text-shadow: 3px 3px $DoradoClaro;
     letter-spacing: 5px;
     cursor:pointer;
@@ -67,6 +85,18 @@ $FontNav: 'Shadows Into Light';
 /**/
 
 
+#SeccionCarousel{
+    display:none;
+}   
+
+@media only screen and (max-width: 880px) {
+    #SeccionCarousel {
+        margin-top:80px;
+        display: inline-block;
+    }
+    }
+
+
 
 .carousel-control-next-icon {
     display: inline-block;
@@ -76,6 +106,13 @@ $FontNav: 'Shadows Into Light';
     background-position: 50%;
     background-size: 100% 100%;
 }
+
+@media only screen and (max-width: 880px) {
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        display:none !important;
+    }
+    }
+
 .carousel-item {
     position: relative;
     display: none;
@@ -88,13 +125,13 @@ $FontNav: 'Shadows Into Light';
     transition: -webkit-transform 1s ease-in-out;
     transition: transform 1s ease-in-out;
     transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
-  }
+}
 
-@media only screen and (max-width: 880px) {
-    #carouselExampleControls {
-        margin-top:80px;
-    }
-    }
+// #carouselExampleControls{
+//     margin-bottom:300px;
+    
+// }
+
 
 
 
@@ -104,11 +141,11 @@ $FontNav: 'Shadows Into Light';
 
 
 
-#PortadaFondo{
-    margin-top:400px;
-    margin-bottom:400px
+// .PortadaFondo{
+//     margin-top:150px;
+//     margin-bottom:150px;
     
-}
+// }
 
 
 
@@ -125,6 +162,7 @@ $FontNav: 'Shadows Into Light';
 
 #PortadaFondoResponsive{
     visibility:hidden;
+
 }
 
 
@@ -134,8 +172,8 @@ $FontNav: 'Shadows Into Light';
 {
     #PortadaFondoResponsive{
         visibility:visible;
-        margin-top:400px;
-        margin-bottom:400px
+        margin-top:80px;
+        margin-bottom:350px;
     }
 }
 
@@ -160,26 +198,51 @@ $FontNav: 'Shadows Into Light';
 
 
 #SeccionComfort{
+        margin-top:300px;
         margin-bottom:225px;        
         padding-top:30px;
-        
+        display:none;
 }
+
+@media only screen and (max-width: 880px) {
+    #SeccionComfort {
+        margin-top:80px;
+        display: inline;
+    }
+}
+
 
 
 #SeccionSkydive{
         margin-bottom:225px;
+        display:none;
+}
+
+
+@media only screen and (max-width: 880px) {
+    #SeccionSkydive {
+        margin-top:80px;
+        display: inline;
+    }
 }
 
 #SeccionMyself{
     margin-bottom:225px;
+        display:none;
+}
+
+
+@media only screen and (max-width: 880px) {
+    #SeccionMyself {
+        margin-top:80px;
+        display: inline;
+    }
 }
 
 
 .descripcionDisco{
     color:$Descripcion;
 }
-
-
 
 
 /**/
@@ -197,8 +260,8 @@ $FontNav: 'Shadows Into Light';
 
 @media only screen and (max-width:880px) {
     #icoMidi
-    {margin-top:150px; 
-    margin-bottom:70px;
+    {margin-top:175px; 
+    margin-bottom:100px;
     }
 }
 
@@ -208,6 +271,18 @@ $FontNav: 'Shadows Into Light';
 /**/
 
 
+#SeccionBiografia{
+    display:none;
+}
+
+@media only screen and (max-width: 880px) {
+    #SeccionBiografia {
+        margin-top:80px;
+        display: inline-block;
+    }
+}
+
+
 
 
 #tituloBiografia{
@@ -215,13 +290,25 @@ $FontNav: 'Shadows Into Light';
     font-family:$FontTextos;
     font-weight:bold;
     font-size:25px;
-   
+
 
 }
 
+#SeccionVideo{
+    display:none;
+    position:absolute; top:0; left: 0
+}
+@media only screen and (max-width: 880px) {
+    #SeccionVideo {
+        display: inline-block;
+    }
+}
 
+#SeccionContacto{
+    font-size:18px;
+    color:$DoradoClaro;
 
-
+}
 
 
 /*Boton de ir arriba*/
