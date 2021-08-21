@@ -11609,7 +11609,6 @@ a {
   margin-top: 300px;
   margin-bottom: 225px;
   padding-top: 30px;
-  display: none;
 }
 
 @media only screen and (max-width: 880px) {
@@ -11623,7 +11622,6 @@ a {
 
 #SeccionSkydive {
   margin-bottom: 225px;
-  display: none;
 }
 
 @media only screen and (max-width: 880px) {
@@ -11637,7 +11635,6 @@ a {
 
 #SeccionMyself {
   margin-bottom: 225px;
-  display: none;
 }
 
 @media only screen and (max-width: 880px) {
@@ -11667,10 +11664,6 @@ a {
 }
 
 /**/
-#SeccionBiografia {
-  display: none;
-}
-
 @media only screen and (max-width: 880px) {
   #SeccionBiografia {
     margin-top: 80px;
@@ -11686,7 +11679,6 @@ a {
 }
 
 #SeccionVideo {
-  display: none;
   position: absolute;
   top: 0;
   left: 0;

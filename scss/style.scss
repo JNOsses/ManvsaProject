@@ -45,10 +45,6 @@ a{
 
 
 
-
-
-
-
 /**/
 
 
@@ -201,7 +197,7 @@ a{
         margin-top:300px;
         margin-bottom:225px;        
         padding-top:30px;
-        display:none;
+        // display:none;
 }
 
 @media only screen and (max-width: 880px) {
@@ -215,7 +211,7 @@ a{
 
 #SeccionSkydive{
         margin-bottom:225px;
-        display:none;
+        // display:none;
 }
 
 
@@ -228,7 +224,7 @@ a{
 
 #SeccionMyself{
     margin-bottom:225px;
-        display:none;
+        // display:none;
 }
 
 
@@ -272,7 +268,7 @@ a{
 
 
 #SeccionBiografia{
-    display:none;
+    // display:none;
 }
 
 @media only screen and (max-width: 880px) {
@@ -295,7 +291,7 @@ a{
 }
 
 #SeccionVideo{
-    display:none;
+    // display:none;
     position:absolute; top:0; left: 0
 }
 @media only screen and (max-width: 880px) {
